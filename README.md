@@ -13,6 +13,5 @@ This project focuses on simulating:
 
 ### Tools & Languages
 - **MATLAB / Simulink** — modeling and simulation of **attitude dynamics** and **Hill (LVLH) equations**
-- **C++ (Eigen3)** — implementation of the **Hill equations** using an LTI model with RK4 integration.  
-  *Note:* the **C++ simulation of Hill** is available; attitude is currently done in **MATLAB/Simulink**.
+- **C++ (Eigen3)** — implementation of the **attitude dynamics** and **Hill equations** using an LTI model with RK4 integration.  
 - **Python (pandas, matplotlib)** — post-processing and visualization of the C++ simulation results (plots of \(x,y,z\) and \(v_x,v_y,v_z\)).
